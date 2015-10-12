@@ -23,7 +23,6 @@ public class Lotto {
 				if (isDuple(count, num)) { // 같은줄에 겹치는지 확인해서
 					lottos[count][i] = num; // 그 숫자를 담는다
 					i++;
-					System.out.println("i는"+ i);
 					if (i == lottos[0].length) { // 입력된 돈의 값만큼 추출되었다면
 						i = 0;
 						break; // 종료한다.

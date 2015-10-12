@@ -9,7 +9,7 @@ public class LottoShop {
 	public static void main(String[] args) {
 		System.out.println("행운의 로또");
 		Lotto lotto = new Lotto();
-		lotto.inputMoney(5000);
+		lotto.inputMoney(2000);
 		lotto.extractNum();
 		lotto.printLotto();
 	}
